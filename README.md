@@ -76,7 +76,7 @@ project_1_covertype/
 
 1. Clone or download the repository.
 2. Install the Python dependencies listed below (for example with `pip`).
-3. Open `Proyecto_1_Covertype.ipynb` in Jupyter / VS Code / Cursor.
+3. Open `Proyecto_1_Covertype.ipynb` in Jupyter / VS Code / Other IDE.
 4. Run the notebook cells from top to bottom.
 
 Notes:
