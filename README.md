@@ -76,7 +76,7 @@ project_1_covertype/
 
 1. Clone or download the repository.
 2. Install the Python dependencies listed below (for example with `pip`).
-3. Open `Proyecto_1_Covertype.ipynb` in Jupyter / VS Code / Other IDE.
+3. Open `Proyecto_1_Covertype.ipynb` in Jupyter or VS Code.
 4. Run the notebook cells from top to bottom.
 
 Notes:
@@ -98,7 +98,7 @@ Libraries imported/used by the notebook:
 
 - Model comparison used a stratified **25,000**-row working sample rather than all 581,012 rows, for nonlinear SVM computational feasibility.
 - Hyperparameter grids were controlled for runtime and are not exhaustive.
-- The same 10-fold CV results were used for hyperparameter comparison and reported performance (course-aligned methodology; may include some selection optimism vs nested CV).
+- The same 10-fold CV results were used for hyperparameter comparison and reported performance (without nested cross-validation; may include some selection optimism vs nested CV).
 - Strong class imbalance remains.
 - Only Logistic Regression and SVM were compared.
 
@@ -106,3 +106,4 @@ Libraries imported/used by the notebook:
 
 Blackard, J. (1998). Covertype [Dataset]. UCI Machine Learning Repository.  
 https://doi.org/10.24432/C50K5N
+
